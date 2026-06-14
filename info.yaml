@@ -17,4 +17,4 @@ doc:
   #       - <cell>
   #       - <cell>
 sim:
-  # <simdir>: command
+  JNW_EX: make typical etc mc
