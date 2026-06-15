@@ -1,0 +1,10 @@
+### Summary tran_Sch_mc
+
+For details see <a href='tran_Sch_mc.html'>tran_Sch_mc.html</a>
+
+|**Name**|**Parameter**|**View**|**Min** | **Typ** | **Max**|
+|:---|:---|:---:|:---:|:---:|:---:|
+|Output current|ibns\_20u | Spec | 16.00 uA | 20.00 uA | 24.00 uA |
+| | | ('Sch',)|20.28 uA | 20.28 uA | 20.28 uA |
+|Gate-Source voltage|vgs\_m1 | Spec | 0.300 V | 0.600 V | 0.700 V |
+| | | ('Sch',)|0.685 V | 0.685 V | 0.685 V |
