@@ -1,12 +1,8 @@
 magic
 tech sky130A
-timestamp 1781530695
-<< error_s >>
-rect 283 561 367 567
-rect 300 544 350 550
+timestamp 1781532174
 << locali >>
 rect -48 -56 48 2545
-rect 300 500 350 550
 rect 528 -56 624 2529
 rect -48 -146 147 -56
 rect 237 -146 624 -56
@@ -44,24 +40,24 @@ rect -170 1356 80 1388
 rect 112 1356 364 1388
 rect 396 1356 399 1388
 rect 80 1353 112 1356
-use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_0 ../JNW_ATR_SKY130A
-timestamp 1781529619
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_0 ~/pro/aicex/ip/jnw_ex_sky130a/design/JNW_ATR_SKY130A
+timestamp 1781532174
 transform 1 0 0 0 1 14
 box -92 -64 668 464
 use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_1
-timestamp 1781529619
+timestamp 1781532174
 transform 1 0 0 0 1 541
 box -92 -64 668 464
 use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_2
-timestamp 1781529619
+timestamp 1781532174
 transform 1 0 0 0 1 1069
 box -92 -64 668 464
 use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_3
-timestamp 1781529619
+timestamp 1781532174
 transform 1 0 0 0 1 1597
 box -92 -64 668 464
 use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_4
-timestamp 1781529619
+timestamp 1781532174
 transform 1 0 0 0 1 2125
 box -92 -64 668 464
 << labels >>
