@@ -1,6 +1,6 @@
 
 
-all: typical etc mc summary
+all: fix_layout_paths typical etc mc summary
 
 
 
@@ -45,6 +45,9 @@ summary:
 
 slide:
 	pandoc -s  -t slidy README.md -o README.html
+
+fix_layout_paths:
+	sed -i "s|~/pro/aicex/ip/$(shell echo $(LIB) | tr A-Z a-z)/design|..|g" ../../design/$(LIB)/$(CELL).mag
 
 
 clean:

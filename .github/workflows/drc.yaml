@@ -14,24 +14,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Job 1: Pre-process files and replace your string
-  prepare-files:
-    runs-on: ubuntu-latest
-    steps:
-      # Step 1: Clone the repository to the runner
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      # Step 2: Use the Replace in Files Marketplace action
-      - name: Replace String in Files
-        uses: jacobtomlinson/gha-find-replace@v3
-        with:
-          find: "~/pro/aicex/ip/jnw_ex_sky130a/design/"
-          replace: "../"
-          include: "design/JNW_EX_SKY130A/JNW_EX.mag"
-
   drc:
-    needs: prepare-files
     uses: analogicus/jnw-actions/.github/workflows/drc.yaml@main
 
 
