@@ -36,9 +36,8 @@ With xschem for schematic, magic for layout, ciscim and NGSPICE for DV.
 
 | Signal       | Direction | Domain  | Description                               |
 | :---         | :---:     | :---:   | :---                                      |
-| IBPS_5U      | Input     | VDD_1V8 | Input current for the mirror              |
-| IBNS_20U     | Output    | VDD_1V8 | Output current x4 of the mirror 		 |
-| VSS          | Input     | Ground  |                                           |
+| VDD_1V8         | Input     | VDD_1V8 | Main supply                              |
+| VSS         | Input     | Ground  |                                           |
 
 
 # Key parameters
